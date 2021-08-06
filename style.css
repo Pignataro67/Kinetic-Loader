@@ -34,3 +34,14 @@ body {
   transform: rotate(90deg);
   animation: rotateB 2s linear infinite;
 }
+
+@keyframes rotateA {
+0%,
+25% {
+  transform: rotate(0deg);
+}
+  
+50%,
+75% {
+  transform: rotate(180deg);
+}
